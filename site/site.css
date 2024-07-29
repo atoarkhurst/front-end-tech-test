@@ -466,7 +466,8 @@ footer {
 }
 
 footer h2 {
-    font-size: var(--font-size-large);
+    font-size: var(--font-size-medium);
+    margin-bottom: 20px;
 }
 
 footer p {
@@ -505,7 +506,7 @@ footer p {
     }
 
     .section-header h2 {
-        font-size: var(--font-size-large);
+        font-size: var(--font-size-xlarge);
     }
 
     .card {
@@ -549,7 +550,7 @@ footer p {
         left: 0;
         right: 0;
         bottom: 0;
-        height: 5px;
+        height: 6px;
         background-color: var(--primary-color);
         transform: scaleX(0);
         transition: transform 0.3s ease;
