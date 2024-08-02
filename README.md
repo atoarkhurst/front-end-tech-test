@@ -8,6 +8,9 @@ This project is a web page built as part of the Front-End Developer technical as
 - CSS
 - JavaScript
 
+## Figma Design
+The design for the project can be found here https://www.figma.com/design/onyPZC9gaTA3cGGG4T80xj/Candidate-Mocks?node-id=0-1&t=VY1W4SaRjcGqEBhK-0
+
 ## How to Run the Project
 1. Clone the repository:
    ```bash
