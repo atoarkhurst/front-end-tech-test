@@ -39,14 +39,8 @@ document.addEventListener('DOMContentLoaded', function () {
             e.preventDefault();
             var dropdownWrapper = this.nextElementSibling;
             dropdownWrapper.classList.toggle('open');
-            var arrow = this.querySelector('.arrow');
-            if (dropdownWrapper.classList.contains('open')) {
-                arrow.classList.remove('down');
-                arrow.classList.add('up');
-            } else {
-                arrow.classList.remove('up');
-                arrow.classList.add('down');
-            }
+            var isExpanded = this.getAttribute('aria-expanded') === 'true';
+            this.setAttribute('aria-expanded', !isExpanded);
         });
     });
 });
